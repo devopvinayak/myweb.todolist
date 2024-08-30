@@ -1,0 +1,56 @@
+h1{
+    background-color: black;
+    padding:10px;
+    color:white;
+    text-align: center;
+}
+
+input{
+  font-size:30px;
+  border:1px solid rgba(0, 0, 0, 0.89);
+  margin:5px;
+  padding:4px 15px;
+}
+
+button{
+    background-color:black;
+    color:white;
+    padding:8px 8px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:5px;
+    margin-left:50px;
+    margin-top:5px;
+}
+
+div{
+    padding:2px;
+    background-color:rgba(204, 204, 204, 0.822);
+}
+
+#main{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:5px;
+    width:50%;
+}
+
+#main h5, h6{
+    padding:0px;
+    font-size:20px;
+    font-weight:100px;
+}
+
+ li{
+    background-color: rgba(204, 204, 204, 0.822);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li button{
+    background-color: rgb(255, 56, 56);
+    color:white;
+    margin-right: 10px;
+}
